@@ -1,0 +1,14 @@
+package Basics;
+
+public class Strings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String bookTitle="The Lords of the Rings";
+		if(bookTitle.contains("Rings")) {
+			System.out.println("We got the Word");
+		}
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package Oops;
+
+public class BankAccountDetails {
+
+	public static void main(String[] args) {
+		String name;
+		String accountType;
+		String ifsc_no;
+		
+		
+		
+		BankAccountDetails(){
+			System.out.println("Default constructor");
+		}
+		BankAccountDetails(String accountType){
+			System.out.println(accountType +"is created");
+		}
+
+	}
+
+}

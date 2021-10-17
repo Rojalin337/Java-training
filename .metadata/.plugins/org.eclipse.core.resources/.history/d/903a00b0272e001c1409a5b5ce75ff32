@@ -1,0 +1,20 @@
+package Basics;
+
+public class Weather {
+
+	public static void main(String[] args) {
+		// This program will give suggestions what to wear based on climate.
+		int temperature=5;
+		if(temperature > 30) {
+			System.out.print("it is summer and wear loose dress");
+		}
+		else if(temperature<20) {
+			System.out.print("it is rainy ,little bit cold wear some full sleeves.");
+		}
+		else {
+			System.out.print("the winter season");
+		}
+
+	}
+
+}

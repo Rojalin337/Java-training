@@ -1,0 +1,30 @@
+package Basics;
+
+public class NumberCalc {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("the program is starting");
+		printName();
+		int num1=34;
+		int num2=4;
+		addNumbers(num1,num2);
+		multipleNumbers(num1,num2);
+	}
+	static void printName() {
+		System.out.println("My name is roja");
+	}
+	static void addNumbers(int x, int y) {
+		int sum = x+y;
+		System.out.println("The sum of "+ x +" and "+ y + " "+sum);
+		
+	}
+	static void multipleNumbers(int x, int y) {
+		int result = x*y;
+		System.out.println("The result of "+x +" and "+y +" is "+ result);
+		
+	}
+	
+
+
+}
